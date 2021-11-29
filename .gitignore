@@ -1,5 +1,6 @@
 # Testing Files (@Author: Violet)
 *.txt
+*.pptx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
