@@ -24,7 +24,7 @@ def getIndicators(filepath, keyword, is_sample):
 	f = open(filepath, "r")
 	text = f.read().replace('\n', "|")
 	content = re.findall(keyword+'------(.*?)------END OF ' + keyword,text)
-	indicators = content[0].split("|")
+	indicators = content[0].replace(' ', '').split("|")
 	del indicators[0]
 	del indicators[-1]
 	f.close()
@@ -65,9 +65,10 @@ def getIntersection(gt_set, sample_set):
 	candidate_sample = sample_set - init_intersection
 	new_sample_set = sample_set
 	for c in candidate_sample:
-		function_name = c.split("(")[0]
+		#function_name = c.split("(")[0] #Only comapre the function name
 		for gt in gt_set:
-			if function_name in gt:
+			if c in gt:
+			#if function_name in gt:
 				init_intersection.add(gt)
 				new_sample_set.remove(c)
 				new_sample_set.add(gt)
@@ -76,11 +77,6 @@ def getIntersection(gt_set, sample_set):
 
 	return init_intersection, new_sample_set
 
-"""
-TODO:
-	still consider the hand-made classes when validating, add more tolerance
-
-"""
 def compareTwoFiles(gt_filepath, sample_filepath):
 	gt_classes, _ = getIndicators(gt_filepath, "CLASSES", False)
 	gt_apis, _ = getIndicators(gt_filepath, "API CALLS", False)
