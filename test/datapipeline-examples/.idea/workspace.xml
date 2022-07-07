@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bd50ddb-b48e-48dc-918a-3792ebc2fc5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex05_SamplingBaseInputSplitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImagePipelineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IrisCSVTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiOpReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PivotExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebLogDataExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/CSVMixedDataTypesLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex01_FileSplitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex02_CollectionSplitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex03_NumberedFileInputSplitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex06_KFoldIteratorFromDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/IrisNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/PrintSchemasAtEachStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/advanced/features/customizingdl4j/activationfunctions/CustomActivationUsageEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/classimbalance/WeightedLossFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/modelsavingloading/SaveLoadComputationGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/modelsavingloading/SaveLoadMultiLayerNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/presavingdatasets/PreSaveFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/CIFARClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/LeNetMNIST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/LeNetMNISTReLu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/IrisClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/LinearDataClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MNISTDoubleLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MNISTSingleLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MoonClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/SaturnClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/regression/CSVDataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/regression/SumModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../validator_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validator.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2BZq283gs4rU0qmAUFMmHeDxzGZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bd50ddb-b48e-48dc-918a-3792ebc2fc5e" name="Default Changelist" comment="" />
+      <created>1657123746048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657123746048</updated>
+      <workItem from="1657123747389" duration="8428000" />
+      <workItem from="1657137922913" duration="12826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
