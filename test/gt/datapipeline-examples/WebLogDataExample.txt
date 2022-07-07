@@ -1,0 +1,33 @@
+------CLASSES------
+org.datavec.api.transform.condition.string.StringRegexColumnCondition
+org.datavec.api.transform.schema.Schema.Builder
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.records.reader.impl.csv.CSVRecordReader
+org.datavec.api.writable.IntWritable
+org.datavec.api.transform.TransformProcess
+org.datavec.api.transform.TransformProcess.Builder
+org.datavec.api.writable.Writable
+org.datavec.api.split.FileSplit
+org.datavec.api.transform.schema.Schema
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.transform.schema.Schema.Builder.addColumnInteger(java.lang.String)
+org.datavec.api.transform.TransformProcess.Builder.build()
+org.datavec.api.transform.schema.Schema.Builder.addColumnString(java.lang.String)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.datavec.api.transform.TransformProcess.getFinalSchema()
+org.datavec.api.transform.schema.Schema.Builder.build()
+org.datavec.api.records.reader.RecordReader.next()
+org.datavec.local.transforms.LocalTransformExecutor.execute(java.util.List<java.util.List<org.datavec.api.writable.Writable>>, org.datavec.api.transform.TransformProcess)
+org.datavec.api.records.reader.RecordReader.hasNext()
+org.datavec.api.transform.TransformProcess.Builder.conditionalReplaceValueTransform(java.lang.String, org.datavec.api.writable.Writable, org.datavec.api.transform.condition.Condition)
+org.datavec.api.transform.TransformProcess.Builder.renameColumn(java.lang.String, java.lang.String)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader()
+org.datavec.api.transform.TransformProcess.Builder.TransformProcess$Builder(org.datavec.api.transform.schema.Schema)
+org.datavec.api.writable.IntWritable.IntWritable(int)
+org.datavec.api.transform.schema.Schema.Builder.Schema$Builder()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.datavec.api.transform.condition.string.StringRegexColumnCondition.StringRegexColumnCondition(java.lang.String, java.lang.String)
+------END OF CONSTRUCTORS------

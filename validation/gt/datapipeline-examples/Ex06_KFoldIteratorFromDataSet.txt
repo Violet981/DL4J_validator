@@ -1,0 +1,13 @@
+------CLASSES------
+org.nd4j.linalg.dataset.DataSet
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator
+------END OF CLASSES------
+------API CALLS------
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.testFold()
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.hasNext()
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.next()
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(int, org.nd4j.linalg.dataset.DataSet)
+org.nd4j.linalg.dataset.DataSet.DataSet()
+------END OF CONSTRUCTORS------

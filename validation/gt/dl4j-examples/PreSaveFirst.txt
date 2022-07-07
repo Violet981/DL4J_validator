@@ -1,0 +1,10 @@
+------CLASSES------
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator
+------END OF CLASSES------
+------API CALLS------
+org.nd4j.linalg.dataset.DataSet.save(java.io.File)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.MnistDataSetIterator(int, boolean, int)
+------END OF CONSTRUCTORS------

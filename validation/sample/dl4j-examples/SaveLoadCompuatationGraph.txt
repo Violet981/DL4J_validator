@@ -1,0 +1,187 @@
+------CLASSES------
+org.deeplearning4j.util.ModelSerializer
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder
+org.deeplearning4j.nn.conf.layers.OutputLayer
+java.lang.Integer
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.nd4j.linalg.learning.config.Sgd
+org.deeplearning4j.nn.conf.layers.BatchNormalization
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer
+org.nd4j.linalg.schedule.ISchedule
+org.deeplearning4j.nn.layers.BaseLayer<>
+org.deeplearning4j.nn.weights.WeightInit
+org.nd4j.linalg.learning.AdamUpdater
+org.nd4j.linalg.learning.config.AdaGrad
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.nd4j.linalg.factory.Nd4j
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder
+org.nd4j.linalg.learning.AdaDeltaUpdater
+org.nd4j.linalg.learning.config.AMSGrad
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT
+org.nd4j.linalg.learning.RmsPropUpdater
+org.deeplearning4j.nn.conf.layers.Layer
+org.nd4j.linalg.learning.AMSGradUpdater
+java.util.Map<Integer,Double>
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder
+org.deeplearning4j.nn.api.Model
+org.nd4j.linalg.learning.config.Nadam
+org.deeplearning4j.nn.api.OptimizationAlgo
+java.lang.Double
+org.nd4j.linalg.learning.NoOpUpdater
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer
+org.nd4j.linalg.learning.config.AdaDelta
+org.nd4j.linalg.learning.config.IUpdater
+org.nd4j.linalg.schedule.StepSchedule
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder
+org.nd4j.linalg.schedule.MapSchedule
+org.deeplearning4j.nn.graph.ComputationGraph
+org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction
+org.nd4j.linalg.lossfunctions.ILossFunction
+org.nd4j.linalg.learning.config.RmsProp
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.nd4j.linalg.activations.Activation
+org.nd4j.linalg.learning.NesterovsUpdater
+org.nd4j.linalg.learning.NadamUpdater
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.nd4j.linalg.learning.config.NoOp
+org.nd4j.linalg.learning.SgdUpdater
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+java.io.File
+org.deeplearning4j.nn.layers.BaseOutputLayer<>
+org.nd4j.linalg.api.ndarray.INDArray
+org.deeplearning4j.nn.conf.graph.GraphVertex
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder
+org.nd4j.linalg.learning.config.Nesterovs
+org.nd4j.linalg.learning.config.Adam
+org.nd4j.linalg.learning.AdaGradUpdater
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(long)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(long)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.build()
+org.deeplearning4j.util.ModelSerializer.restoreComputationGraph(java.io.File)
+org.deeplearning4j.util.ModelSerializer.writeModel(org.deeplearning4j.nn.api.Model, java.lang.String, boolean)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.activation(int)
+org.deeplearning4j.nn.graph.ComputationGraph.load(java.io.File, boolean)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.l1(double)
+org.nd4j.linalg.factory.Nd4j.create(double[][])
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.nd4j.linalg.factory.Nd4j.create(double[][][])
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.addLayer(java.lang.String, org.deeplearning4j.nn.conf.layers.Layer, java.lang.String...)
+org.nd4j.linalg.factory.Nd4j.create(int[][])
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.poolingType(org.deeplearning4j.nn.conf.layers.PoolingType)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.addVertex(java.lang.String, org.deeplearning4j.nn.conf.graph.GraphVertex, java.lang.String[])
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nIn(long)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.nd4j.linalg.factory.Nd4j.create(int[])
+org.deeplearning4j.nn.graph.ComputationGraph.save(java.io.File, boolean)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nInt(int)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.poolingDimensions(int...)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder.build()
+org.nd4j.linalg.factory.Nd4j.vstack(int...)
+org.nd4j.linalg.factory.Nd4j.create(float[][][])
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.learningRate(double)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.nd4j.linalg.factory.Nd4j.create(double[])
+org.deeplearning4j.nn.graph.ComputationGraph.init()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.padding(int...)
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.setOutputs(java.lang.String...)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.miniBatch(boolean)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.name(java.lang.String)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nOut(long)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.padding(int...)
+org.deeplearning4j.util.ModelSerializer.restoreComputationGraph(java.io.File, boolean)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.optimizationAlgo(org.deeplearning4j.nn.api.OptimizationAlgo)
+org.deeplearning4j.nn.graph.ComputationGraph.save(java.io.File)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.dropOut(double)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.l2(double)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.kernalSize(int...)
+org.nd4j.linalg.factory.Nd4j.create(float[])
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.build()
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nOut(int)
+org.deeplearning4j.util.ModelSerializer.restoreComputationGraph(java.lang.String, boolean)
+org.nd4j.linalg.factory.Nd4j.create(float[][])
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.addInputs(java.lang.String...)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.kernelSize(int...)
+org.nd4j.linalg.factory.Nd4j.hstack(int...)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.graphBuilder()
+org.nd4j.linalg.factory.Nd4j.create(int[][][])
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.nOut(int)
+org.deeplearning4j.util.ModelSerializer.writeModel(org.deeplearning4j.nn.api.Model, java.io.File, boolean)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.seed(long)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.nd4j.linalg.learning.config.Nadam.Nadam(double)
+org.nd4j.linalg.learning.config.Adam.Adam(double, double, double, double)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder()
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad(double)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(int...)
+org.nd4j.linalg.learning.config.Adam.Adam()
+org.nd4j.linalg.learning.config.RmsProp.RmsProp()
+org.nd4j.linalg.learning.NadamUpdater.NadamUpdater(org.nd4j.linalg.learning.config.Nadam)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.BatchNormalization()
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad()
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.GlobalPoolingLayer$Builder()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder(int...)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.ILossFunction)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.FeedForwardLayer$Builder()
+org.nd4j.linalg.learning.SgdUpdater.SgdUpdater(org.nd4j.linalg.learning.config.Sgd)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.nd4j.linalg.learning.AMSGradUpdater.AMSGradUpdater(org.nd4j.linalg.learning.config.AMSGrad)
+org.nd4j.linalg.learning.config.Adam.Adam(org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.config.Nadam.Nadam(double, double, double, double)
+org.nd4j.linalg.learning.config.AdaDelta.AdaDelta()
+org.nd4j.linalg.learning.NoOpUpdater.NoOpUpdater(org.nd4j.linalg.learning.config.NoOp)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT(double, org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder.BatchNormalization$Builder()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(org.deeplearning4j.nn.conf.layers.PoolingType)
+org.nd4j.linalg.learning.config.Nadam.Nadam()
+org.nd4j.linalg.learning.config.Sgd.Sgd(double)
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad(double, double, double, double)
+org.deeplearning4j.nn.graph.ComputationGraph.ComputationGraph(org.deeplearning4j.nn.conf.ComputationGraphConfiguration)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT(org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, double)
+org.nd4j.linalg.learning.AdaDeltaUpdater.AdaDeltaUpdater(org.nd4j.linalg.learning.config.AdaDelta)
+org.nd4j.linalg.learning.config.AdaDelta.AdaDelta(double, double)
+org.nd4j.linalg.learning.config.Adam.Adam(double)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs()
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT()
+org.nd4j.linalg.schedule.StepSchedule.StepSchedule(org.nd4j.linalg.schedule.ScheduleType, double, double, double)
+org.nd4j.linalg.schedule.MapSchedule.MapSchedule(org.nd4j.linalg.schedule.ScheduleType, java.util.Map)
+org.nd4j.linalg.learning.config.RmsProp.RmsProp(double)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double)
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad(double, double)
+org.nd4j.linalg.learning.RmsPropUpdater.RmsPropUpdater(org.nd4j.linalg.learning.config.RmsProp)
+org.nd4j.linalg.learning.config.Sgd.Sgd()
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.config.NoOp.NoOp()
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad(double)
+org.nd4j.linalg.learning.config.RmsProp.RmsProp(double, double, double)
+org.nd4j.linalg.learning.NesterovsUpdater.NesterovsUpdater(org.nd4j.linalg.learning.config.Nesterovs)
+org.nd4j.linalg.learning.AdaGradUpdater.AdaGradUpdater(org.nd4j.linalg.learning.config.AdaGrad)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.AdamUpdater.AdamUpdater(org.nd4j.linalg.learning.config.Adam)
+------END OF CONSTRUCTORS------

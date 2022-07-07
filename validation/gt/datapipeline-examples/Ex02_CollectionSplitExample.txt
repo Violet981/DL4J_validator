@@ -1,0 +1,13 @@
+------CLASSES------
+org.datavec.api.split.CollectionInputSplit
+org.datavec.api.split.FileSplit
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.split.BaseInputSplit.locationsIterator()
+org.datavec.api.split.BaseInputSplit.locations()
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], boolean)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(java.net.URI[])
+org.datavec.api.split.BaseInputSplit.locations()
+------END OF CONSTRUCTORS------

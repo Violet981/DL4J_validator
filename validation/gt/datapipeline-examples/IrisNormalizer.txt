@@ -1,0 +1,26 @@
+------CLASSES------
+org.nd4j.linalg.dataset.DataSet
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.records.reader.impl.csv.CSVRecordReader
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+org.datavec.api.split.FileSplit
+------END OF CLASSES------
+------API CALLS------
+org.nd4j.linalg.dataset.api.preprocessor.AbstractDataSetNormalizer.transform(org.nd4j.linalg.dataset.api.DataSet)
+org.nd4j.linalg.dataset.api.preprocessor.AbstractDataSetNormalizer.fit(org.nd4j.linalg.dataset.api.DataSet)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.setPreProcessor(org.nd4j.linalg.dataset.api.DataSetPreProcessor)
+org.nd4j.linalg.dataset.api.preprocessor.AbstractDataSetNormalizer.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.reset()
+org.nd4j.linalg.dataset.api.preprocessor.AbstractDataSetNormalizer.revert(org.nd4j.linalg.dataset.api.DataSet)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.DataSet.copy()
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader(int, char)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.NormalizerMinMaxScaler()
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.NormalizerMinMaxScaler(double, double)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

@@ -1,0 +1,152 @@
+------CLASSES------
+org.nd4j.linalg.dataset.api.preprocessor.Normalizer
+java.util.List<Writable>
+org.datavec.api.split.CollectionInputSplit
+org.nd4j.linalg.dataset.api.DataSet
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.records.metadata.RecordMetaData
+org.datavec.api.conf.Configuration
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization
+org.nd4j.linalg.dataset.api.DataSetPreProcessor
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler
+org.datavec.api.transform.TransformProcess.Builder
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+java.util.Random
+org.datavec.api.records.reader.impl.csv.CSVRecordReader
+java.util.List<Record>
+java.util.Collection<URI>
+java.net.URI
+java.util.Iterator<URI>
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize
+org.nd4j.linalg.dataset.DataSet
+org.datavec.api.split.partition.Partitioner
+org.datavec.api.io.filters.PathFilter
+org.datavec.api.split.partition.NumberOfRecordsPartitioner
+org.datavec.api.writable.Writable
+org.datavec.api.split.FileSplit
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator
+java.io.File
+java.util.List<List>
+org.datavec.api.transform.schema.Schema.Builder
+org.datavec.api.split.partition.PartitionMetaData
+org.datavec.api.records.Record
+org.datavec.local.transforms.LocalTransformExecutor
+org.nd4j.linalg.api.ndarray.INDArray
+org.datavec.api.split.NumberedFileInputSplit
+org.datavec.api.transform.TransformProcess
+org.datavec.api.transform.condition.Condition
+org.datavec.api.split.InputSplit
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+java.util.List<RecordMetaData>
+org.datavec.api.records.writer.impl.csv.CSVRecordWriter
+org.datavec.api.transform.schema.Schema
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.split.FileSplit.locations()
+org.datavec.api.transform.schema.Schema.Builder.addColumnInteger(java.lang.String)
+org.datavec.api.records.writer.impl.csv.CSVRecordWriter.initialize(org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.nd4j.linalg.dataset.DataSet.shuffle(long)
+org.datavec.api.transform.TransformProcess.Builder.integerToCategorical(java.lang.String, java.lang.String...)
+org.datavec.api.records.writer.impl.csv.CSVRecordWriter.writeBatch(java.util.List)
+org.datavec.api.records.reader.RecordReader.loadFromMetaData(java.util.List)
+java.util.Iterator<URI>.next()
+org.datavec.api.transform.TransformProcess.Builder.duplicateColumns(java.lang.String..., java.lang.String...)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.datavec.api.transform.TransformProcess.Builder.categoricalToOneHot(java.lang.String...)
+org.nd4j.linalg.dataset.api.preprocessor.Normalizer.fit(T)
+org.nd4j.linalg.dataset.DataSet.shuffle()
+org.datavec.api.transform.schema.Schema.Builder.addColumnInteger(java.lang.String, int, int)
+org.datavec.api.transform.schema.Schema.Builder.addColumnsString(java.lang.String...)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.setPreProcessor(org.nd4j.linalg.dataset.api.DataSetPreProcessor)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.hasNext()
+org.datavec.api.transform.schema.Schema.Builder.addColumnDouble(java.lang.String, double, double)
+org.datavec.api.transform.TransformProcess.Builder.renameColumn(java.lang.String, java.lang.String)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+java.util.Iterator<URI>.hasNext()
+org.datavec.api.split.CollectionInputSplit.locationsIterator()
+org.datavec.api.transform.schema.Schema.Builder.addColumnLong(java.lang.String)
+org.datavec.api.transform.TransformProcess.Builder.build()
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.next()
+org.datavec.api.transform.schema.Schema.Builder.addColumnString(java.lang.String)
+org.datavec.local.transforms.LocalTransformExecutor.execute(java.util.List, org.datavec.api.transform.TransformProcess)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit)
+org.datavec.api.transform.schema.Schema.Builder.addColumnDouble(java.lang.String)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.next()
+org.datavec.api.transform.TransformProcess.Builder.conditionalCopyValueTransform(java.lang.String, java.lang.String, org.datavec.api.transform.condition.Condition)
+org.datavec.api.transform.schema.Schema.Builder.addColumnsDouble(java.lang.String...)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.reset()
+org.datavec.api.transform.TransformProcess.Builder.categoricalToInteger(java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.addColumnsInteger(java.lang.String...)
+java.util.List<List>.add(java.util.List)
+org.nd4j.linalg.dataset.api.preprocessor.Normalizer.transform(T)
+org.datavec.api.transform.schema.Schema.Builder.addColumnDouble(java.lang.String, double, double, boolean, boolean)
+org.datavec.api.transform.schema.Schema.Builder.addColumnLong(java.lang.String, long, long)
+org.datavec.api.transform.TransformProcess.Builder.removeColumns(java.lang.String...)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.transform(org.nd4j.linalg.dataset.api.DataSet)
+org.datavec.api.split.NumberedFileInputSplit.locationsIterator()
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.datavec.api.transform.schema.Schema.Builder.addColumnsLong(java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.build()
+org.datavec.api.records.reader.RecordReader.loadFromMetaData(org.datavec.api.records.metadata.RecordMetaData)
+org.datavec.api.transform.TransformProcess.Builder.reorderColumns(java.lang.String...)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.fit(org.nd4j.linalg.dataset.api.DataSet)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.transform(org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.transform.TransformProcess.Builder.conditionalReplaceValueTransform(java.lang.String, org.datavec.api.writable.Writable, org.datavec.api.transform.condition.Condition)
+org.datavec.api.records.writer.impl.csv.CSVRecordWriter.close()
+org.datavec.api.transform.TransformProcess.Builder.appendStringColumnTransform(java.lang.String, java.lang.String)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.transform(org.nd4j.linalg.dataset.api.DataSet)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.transform(org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.testFold()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.setCollectMetaData(boolean)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.fit(org.nd4j.linalg.dataset.api.DataSet)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next()
+org.datavec.api.transform.schema.Schema.Builder.addColumnFloat(java.lang.String)
+org.datavec.api.transform.TransformProcess.Builder.stringToTimeTransform(java.lang.String, java.lang.String, int)
+org.datavec.api.split.FileSplit.sample(org.datavec.api.io.filters.PathFilter, double[])
+org.datavec.api.split.FileSplit.locationsIterator()
+org.datavec.api.split.NumberedFileInputSplit.locations()
+org.datavec.api.transform.TransformProcess.Builder.addConstantLongColumn(java.lang.String, long)
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.initialize(org.datavec.api.split.InputSplit)
+org.datavec.api.transform.TransformProcess.Builder.removeAllColumnsExceptFor(java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.addColumnCategorical(java.lang.String, java.lang.String...)
+org.datavec.api.transform.TransformProcess.Builder.stringToCategorical(java.lang.String, java.lang.String...)
+org.datavec.api.transform.TransformProcess.Builder.addConstantIntegerColumn(java.lang.String, int)
+org.datavec.api.transform.TransformProcess.Builder.duplicateColumn(java.lang.String, java.lang.String)
+org.datavec.api.transform.TransformProcess.Builder.addConstantDoubleColumn(java.lang.String, double)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.revert(org.nd4j.linalg.dataset.api.DataSet)
+------END OF API CALLS------
+------CONSTRUCTORS------
+java.io.File.File(java.lang.String, java.lang.String)
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader(int, char)
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], boolean)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.NormalizerMinMaxScaler()
+org.datavec.api.records.writer.impl.csv.CSVRecordWriter.CSVRecordWriter()
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(org.nd4j.linalg.dataset.DataSet)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.NormalizerMinMaxScaler(double, double)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(URI[])
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.transform.schema.Schema.Builder.Schema$Builder()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.nd4j.linalg.dataset.DataSet.DataSet()
+org.datavec.api.transform.TransformProcess.Builder.TransformProcess$Builder(org.datavec.api.transform.schema.Schema)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.NormalizerStandardize()
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.NormalizerStandardize(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], java.util.Random)
+java.io.File.File(java.lang.String)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(java.util.Collection)
+org.datavec.api.split.NumberedFileInputSplit.NumberedFileInputSplit(java.lang.String, int, int)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(int, org.nd4j.linalg.dataset.DataSet)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[])
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, int)
+java.io.File.File(java.net.URI)
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader(int, java.lang.String)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.util.Random)
+java.io.File.File(java.io.File, java.lang.String)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.NormalizerStandardize(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.split.partition.NumberOfRecordsPartitioner.NumberOfRecordsPartitioner()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, boolean)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

@@ -1,0 +1,35 @@
+------CLASSES------
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.deeplearning4j.nn.conf.layers.OutputLayer
+org.deeplearning4j.nn.graph.ComputationGraph
+org.nd4j.linalg.learning.config.Nesterovs
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.deeplearning4j.nn.graph.ComputationGraph.save(java.io.File, boolean)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.addLayer(java.lang.String, org.deeplearning4j.nn.conf.layers.Layer, java.lang.String...)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.build()
+org.deeplearning4j.nn.graph.ComputationGraph.init()
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.addInputs(java.lang.String...)
+org.deeplearning4j.nn.conf.ComputationGraphConfiguration.GraphBuilder.setOutputs(java.lang.String...)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.graphBuilder()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.graph.ComputationGraph.load(java.io.File, boolean)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.deeplearning4j.nn.graph.ComputationGraph.ComputationGraph(org.deeplearning4j.nn.conf.ComputationGraphConfiguration)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, double)
+------END OF CONSTRUCTORS------

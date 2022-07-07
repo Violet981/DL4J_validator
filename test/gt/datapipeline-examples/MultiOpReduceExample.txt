@@ -1,0 +1,22 @@
+------CLASSES------
+org.datavec.api.transform.schema.Schema.Builder
+org.datavec.api.transform.TransformProcess
+org.datavec.api.transform.TransformProcess.Builder
+org.datavec.api.transform.schema.Schema
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.transform.schema.Schema.Builder.addColumnInteger(java.lang.String)
+org.datavec.api.transform.TransformProcess.Builder.build()
+org.datavec.api.transform.schema.Schema.Builder.addColumnString(java.lang.String)
+org.datavec.api.transform.schema.Schema.Builder.addColumnDouble(java.lang.String, java.lang.Double, java.lang.Double, boolean, boolean)
+org.datavec.api.transform.TransformProcess.getFinalSchema()
+org.datavec.api.transform.schema.Schema.Builder.addColumnsString(java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.build()
+org.datavec.api.transform.TransformProcess.Builder.removeColumns(java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.addColumnCategorical(java.lang.String, java.util.List<java.lang.String>)
+org.datavec.api.transform.TransformProcess.Builder.renameColumn(java.lang.String, java.lang.String)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.transform.TransformProcess.Builder.TransformProcess$Builder(org.datavec.api.transform.schema.Schema)
+org.datavec.api.transform.schema.Schema.Builder.Schema$Builder()
+------END OF CONSTRUCTORS------

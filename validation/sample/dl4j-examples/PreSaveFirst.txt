@@ -1,0 +1,44 @@
+------CLASSES------
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator
+org.nd4j.linalg.dataset.DataSet
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator
+org.datavec.image.transform.ImageTransform
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator
+java.net.URI
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator
+java.io.File
+------END OF CLASSES------
+------API CALLS------
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.next(int)
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.next()
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.hasNext()
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.next(int)
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator.next()
+org.nd4j.linalg.dataset.DataSet.save(java.io.File)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.next()
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.hasNext()
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.next(int)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.hasNext()
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.next()
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator.next(int)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.next(int)
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator.hasNext()
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.hasNext()
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.MnistDataSetIterator(int, boolean, int)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.Cifar10DataSetIterator(int, org.deeplearning4j.datasets.fetchers.DataSetType)
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator.IrisDataSetIterator()
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.TinyImageNetDataSetIterator(int, org.deeplearning4j.datasets.fetchers.DataSetType)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.Cifar10DataSetIterator(int, int[], org.deeplearning4j.datasets.fetchers.DataSetType)
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.TinyImageNetDataSetIterator(int, int[], org.deeplearning4j.datasets.fetchers.DataSetType)
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.TinyImageNetDataSetIterator(int, int[], org.deeplearning4j.datasets.fetchers.DataSetType, org.datavec.image.transform.ImageTransform, long)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.Cifar10DataSetIterator(int, int[], org.deeplearning4j.datasets.fetchers.DataSetType, org.datavec.image.transform.ImageTransform, long)
+org.deeplearning4j.datasets.iterator.impl.TinyImageNetDataSetIterator.TinyImageNetDataSetIterator(int)
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.MnistDataSetIterator(int, int)
+java.io.File.File(java.net.URI)
+org.deeplearning4j.datasets.iterator.impl.IrisDataSetIterator.IrisDataSetIterator(int, int)
+java.io.File.File(java.io.File, java.lang.String)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.Cifar10DataSetIterator(int)
+------END OF CONSTRUCTORS------

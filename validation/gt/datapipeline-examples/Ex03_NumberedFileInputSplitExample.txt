@@ -1,0 +1,9 @@
+------CLASSES------
+org.datavec.api.split.NumberedFileInputSplit
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.split.NumberedFileInputSplit.locations()
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.split.NumberedFileInputSplit.NumberedFileInputSplit(java.lang.String, int, int)
+------END OF CONSTRUCTORS------

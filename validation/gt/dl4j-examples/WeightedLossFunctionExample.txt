@@ -1,0 +1,36 @@
+------CLASSES------
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.deeplearning4j.nn.conf.MultiLayerConfiguration
+org.nd4j.linalg.api.ndarray.INDArray
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.deeplearning4j.nn.conf.layers.OutputLayer
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+org.nd4j.linalg.learning.config.Sgd
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.build()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(org.deeplearning4j.nn.conf.layers.Layer)
+org.nd4j.linalg.factory.Nd4j.create(double[])
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.list()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.init()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.ILossFunction)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.MultiLayerNetwork(org.deeplearning4j.nn.conf.MultiLayerConfiguration)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.nd4j.linalg.learning.config.Sgd.Sgd(double)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT(org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+------END OF CONSTRUCTORS------
