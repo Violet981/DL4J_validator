@@ -1,5 +1,4 @@
 ------CLASSES------
-org.datavec.api.transform.condition.string.StringRegexColumnCondition
 org.datavec.api.transform.schema.Schema.Builder
 org.datavec.api.records.reader.RecordReader
 org.datavec.api.records.reader.impl.csv.CSVRecordReader
@@ -29,5 +28,4 @@ org.datavec.api.transform.TransformProcess.Builder.TransformProcess$Builder(org.
 org.datavec.api.writable.IntWritable.IntWritable(int)
 org.datavec.api.transform.schema.Schema.Builder.Schema$Builder()
 org.datavec.api.split.FileSplit.FileSplit(java.io.File)
-org.datavec.api.transform.condition.string.StringRegexColumnCondition.StringRegexColumnCondition(java.lang.String, java.lang.String)
 ------END OF CONSTRUCTORS------

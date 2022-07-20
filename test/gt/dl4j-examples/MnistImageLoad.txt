@@ -1,0 +1,19 @@
+------CLASSES------
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler
+org.datavec.image.loader.NativeImageLoader
+org.nd4j.common.io.ClassPathResource
+org.nd4j.linalg.api.ndarray.INDArray
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization
+org.deeplearning4j.util.ModelSerializer
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.util.ModelSerializer.restoreMultiLayerNetwork(java.io.File)
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.transform(org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.output(org.nd4j.linalg.api.ndarray.INDArray)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.ImagePreProcessingScaler(double, double)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.datavec.image.loader.NativeImageLoader.NativeImageLoader(long, long, long)
+------END OF CONSTRUCTORS------

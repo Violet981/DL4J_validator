@@ -1,0 +1,120 @@
+______________________________
+test/gt/dl4j-examples\BirdClassification
+sample_classes len: 108
+sample_apis len: 308
+set()
+{'org.deeplearning4j.nn.conf.layers.BaseOutputLayer.Builder.lossFunction(org.nd4j.linalg.lossfunctions.ILossFunction)'}
+[1.0, 0.9795918367346939]
+[0.25, 0.15584415584415584]
+______________________________
+test/gt/dl4j-examples\CenterLossLeNetMNIST
+sample_classes len: 75
+sample_apis len: 186
+set()
+set()
+[1.0, 1.0]
+[0.24, 0.20430107526881722]
+______________________________
+test/gt/dl4j-examples\CIFARClassifier
+sample_classes len: 79
+sample_apis len: 213
+set()
+{'org.deeplearning4j.nn.conf.layers.SubsamplingLayer.BaseSubsamplingBuilder.poolingType(org.deeplearning4j.nn.conf.layers.SubsamplingLayer.PoolingType)'}
+[1.0, 0.972972972972973]
+[0.189873417721519, 0.16901408450704225]
+______________________________
+test/gt/dl4j-examples\CustomActivationUsageEx
+sample_classes len: 89
+sample_apis len: 210
+{'org.nd4j.linalg.activations.BaseActivationFunction'}
+{'org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.IActivation)'}
+[0.9166666666666666, 0.9523809523809523]
+[0.12359550561797752, 0.09523809523809523]
+______________________________
+test/gt/dl4j-examples\HeartDiseaseBinaryClassification
+sample_classes len: 108
+sample_apis len: 308
+set()
+set()
+[1.0, 1.0]
+[0.2222222222222222, 0.13636363636363635]
+______________________________
+test/gt/dl4j-examples\LeNetMNISTReLu
+sample_classes len: 107
+sample_apis len: 269
+set()
+set()
+[1.0, 1.0]
+[0.205607476635514, 0.1524163568773234]
+______________________________
+test/gt/dl4j-examples\LoadCSVHousePrice
+sample_classes len: 108
+sample_apis len: 308
+{'org.datavec.api.transform.condition.column.InvalidValueColumnCondition'}
+{'org.nd4j.linalg.api.ndarray.INDArray.length()', 'org.datavec.api.transform.condition.column.InvalidValueColumnCondition.InvalidValueColumnCondition(java.lang.String)', 'org.nd4j.linalg.api.ndarray.INDArray.getRow(long)'}
+[0.9655172413793104, 0.9491525423728814]
+[0.25925925925925924, 0.18181818181818182]
+______________________________
+test/gt/dl4j-examples\MnistClassifier
+sample_classes len: 77
+sample_apis len: 209
+set()
+set()
+[1.0, 1.0]
+[0.22077922077922077, 0.14354066985645933]
+______________________________
+test/gt/dl4j-examples\MnistImageLoad
+sample_classes len: 47
+sample_apis len: 118
+set()
+set()
+[1.0, 1.0]
+[0.14893617021276595, 0.05084745762711865]
+______________________________
+test/gt/dl4j-examples\ModelXOR
+sample_classes len: 91
+sample_apis len: 233
+set()
+{'org.nd4j.linalg.factory.Nd4j.zeros(int...)', 'org.nd4j.linalg.api.ndarray.INDArray.putScalar(int[],int)'}
+[1.0, 0.9354838709677419]
+[0.14285714285714285, 0.12446351931330472]
+______________________________
+test/gt/dl4j-examples\Multiclass
+sample_classes len: 108
+sample_apis len: 298
+set()
+set()
+[1.0, 1.0]
+[0.2222222222222222, 0.14093959731543623]
+______________________________
+test/gt/dl4j-examples\SimplestNetwork
+sample_classes len: 89
+sample_apis len: 215
+set()
+set()
+[1.0, 1.0]
+[0.11235955056179775, 0.10232558139534884]
+______________________________
+test/gt/dl4j-examples\SumModel
+sample_classes len: 89
+sample_apis len: 215
+set()
+set()
+[1.0, 1.0]
+[0.12359550561797752, 0.09302325581395349]
+______________________________
+test/gt/dl4j-examples\WomenChessPlayer
+sample_classes len: 108
+sample_apis len: 308
+{'org.datavec.api.transform.condition.column.InvalidValueColumnCondition'}
+{'org.datavec.api.transform.condition.column.InvalidValueColumnCondition.InvalidValueColumnCondition(java.lang.String)', 'org.datavec.api.transform.TransformProcess.Builder.stringMapTransform(java.lang.String,java.util.Map<java.lang.String,java.lang.String>)', 'org.nd4j.linalg.api.ndarray.INDArray.shapeInfoToString()', 'org.datavec.api.transform.TransformProcess.Builder.integerColumnsMathOp(java.lang.String,org.datavec.api.transform.MathOp,java.lang.String...)'}
+[0.9629629629629629, 0.9322033898305084]
+[0.24074074074074073, 0.17857142857142858]
+___________
+[[1.0, 0.9795918367346939], [1.0, 1.0], [1.0, 0.972972972972973], [0.9166666666666666, 0.9523809523809523], [1.0, 1.0], [1.0, 1.0], [0.9655172413793104, 0.9491525423728814], [1.0, 1.0], [1.0, 1.0], [1.0, 0.9354838709677419], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0], [0.9629629629629629, 0.9322033898305084]]
+[[0.25, 0.15584415584415584], [0.24, 0.20430107526881722], [0.189873417721519, 0.16901408450704225], [0.12359550561797752, 0.09523809523809523], [0.2222222222222222, 0.13636363636363635], [0.205607476635514, 0.1524163568773234], [0.25925925925925924, 0.18181818181818182], [0.22077922077922077, 0.14354066985645933], [0.14893617021276595, 0.05084745762711865], [0.14285714285714285, 0.12446351931330472], [0.2222222222222222, 0.14093959731543623], [0.11235955056179775, 0.10232558139534884], [0.12359550561797752, 0.09302325581395349], [0.24074074074074073, 0.17857142857142858]]
+___________
+[[1.0, 1.0, 1.0, 0.9166666666666666, 1.0, 1.0, 0.9655172413793104, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9629629629629629], [0.9795918367346939, 1.0, 0.972972972972973, 0.9523809523809523, 1.0, 1.0, 0.9491525423728814, 1.0, 1.0, 0.9354838709677419, 1.0, 1.0, 1.0, 0.9322033898305084]]
+[[0.25, 0.24, 0.189873417721519, 0.12359550561797752, 0.2222222222222222, 0.205607476635514, 0.25925925925925924, 0.22077922077922077, 0.14893617021276595, 0.14285714285714285, 0.2222222222222222, 0.11235955056179775, 0.12359550561797752, 0.24074074074074073], [0.15584415584415584, 0.20430107526881722, 0.16901408450704225, 0.09523809523809523, 0.13636363636363635, 0.1524163568773234, 0.18181818181818182, 0.14354066985645933, 0.05084745762711865, 0.12446351931330472, 0.14093959731543623, 0.10232558139534884, 0.09302325581395349, 0.17857142857142858]]
+<class 'list'>
+<class 'list'>

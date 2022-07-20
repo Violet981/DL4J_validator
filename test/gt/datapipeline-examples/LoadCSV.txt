@@ -1,0 +1,31 @@
+------CLASSES------
+org.nd4j.linalg.dataset.DataSet
+org.nd4j.common.io.ClassPathResource
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.records.reader.impl.csv.CSVRecordReader
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+org.datavec.api.split.FileSplit
+org.nd4j.linalg.dataset.SplitTestAndTrain
+------END OF CLASSES------
+------API CALLS------
+org.nd4j.linalg.dataset.SplitTestAndTrain.getTest()
+org.nd4j.linalg.dataset.SplitTestAndTrain.getTrain()
+org.nd4j.linalg.dataset.DataSet.getFeatures()
+org.nd4j.linalg.api.ndarray.INDArray.shape()
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.DataSet.shuffle()
+org.nd4j.common.io.ClassPathResource.getFile()
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.setPreProcessor(org.nd4j.linalg.dataset.api.DataSetPreProcessor)
+org.nd4j.linalg.dataset.DataSet.splitTestAndTrain(double)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader(int, char)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler.NormalizerMinMaxScaler(double, double)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

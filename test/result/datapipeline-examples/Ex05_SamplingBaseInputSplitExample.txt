@@ -1,0 +1,104 @@
+------CLASSES------
+java.util.List<Writable>
+org.datavec.api.split.CollectionInputSplit
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.records.metadata.RecordMetaData
+org.datavec.api.conf.Configuration
+org.datavec.api.io.WritableConverter
+java.util.Random
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader
+org.datavec.api.io.filters.BalancedPathFilter
+org.datavec.api.records.writer.RecordWriter
+org.nd4j.common.io.ClassPathResource
+java.util.Collection<URI>
+java.net.URI
+java.util.Iterator<URI>
+org.datavec.api.io.labels.PathLabelGenerator
+org.nd4j.linalg.dataset.DataSet
+org.datavec.api.split.partition.Partitioner
+org.datavec.api.io.filters.PathFilter
+org.nd4j.linalg.factory.Nd4j
+org.datavec.api.writable.Writable
+org.datavec.api.split.FileSplit
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator
+java.io.File
+java.util.List<List>
+org.datavec.api.split.partition.PartitionMetaData
+org.datavec.api.io.filters.RandomPathFilter
+org.nd4j.linalg.api.ndarray.INDArray
+org.datavec.api.split.NumberedFileInputSplit
+org.datavec.api.split.InputSplit
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.split.FileSplit.locations()
+org.nd4j.linalg.factory.Nd4j.create(int[])
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.loadFromMetaData(org.datavec.api.records.metadata.RecordMetaData)
+java.util.Iterator<URI>.next()
+org.datavec.api.split.NumberedFileInputSplit.locationsIterator()
+org.nd4j.linalg.factory.Nd4j.create(double[])
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.datavec.api.records.writer.RecordWriter.close()
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.nd4j.linalg.dataset.DataSet.numInputs()
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.hasNext()
+org.datavec.api.records.reader.RecordReader.next()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.hasNext()
+org.nd4j.linalg.factory.Nd4j.hstack(org.nd4j.linalg.api.ndarray.INDArray...)
+org.datavec.api.records.reader.RecordReader.hasNext()
+org.nd4j.linalg.factory.Nd4j.vstack(org.nd4j.linalg.api.ndarray.INDArray...)
+org.datavec.api.records.writer.RecordWriter.writeBatch(java.util.List)
+java.util.Iterator<URI>.hasNext()
+org.datavec.api.split.CollectionInputSplit.locationsIterator()
+org.nd4j.linalg.api.ndarray.INDArray.putScaler(int[], int)
+org.nd4j.linalg.factory.Nd4j.float(float[][][])
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.testFold()
+org.nd4j.linalg.factory.Nd4j.create(double[][])
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next()
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.next()
+org.nd4j.linalg.factory.Nd4j.create(double[][][])
+org.datavec.api.split.FileSplit.sample(org.datavec.api.io.filters.PathFilter, double[])
+org.nd4j.linalg.factory.Nd4j.create(float[])
+org.nd4j.linalg.factory.Nd4j.create(int[][])
+org.datavec.api.split.FileSplit.locationsIterator()
+org.datavec.api.split.NumberedFileInputSplit.locations()
+org.nd4j.linalg.factory.Nd4j.create(float[][])
+org.datavec.api.io.filters.RandomPathFilter.filter(URI[])
+org.nd4j.common.io.ClassPathResource.getFile()
+org.nd4j.linalg.dataset.DataSet.numExamples()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next(int)
+org.nd4j.linalg.factory.Nd4j.create(int[][][])
+org.nd4j.linalg.dataset.DataSet.numOutcomes()
+------END OF API CALLS------
+------CONSTRUCTORS------
+java.io.File.File(java.lang.String, java.lang.String)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], boolean)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(org.nd4j.linalg.dataset.DataSet)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(URI[])
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.datavec.api.io.filters.BalancedPathFilter.BalancedPathFilter(java.util.Random, java.lang.String[], org.datavec.api.io.labels.PathLabelGenerator)
+org.datavec.api.io.filters.RandomPathFilter.RandomPathFilter(java.util.Random, java.lang.String[], long)
+org.nd4j.linalg.dataset.DataSet.DataSet()
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader.CollectionRecordReader(java.util.List)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], java.util.Random)
+java.io.File.File(java.lang.String)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(java.util.Collection)
+org.datavec.api.split.NumberedFileInputSplit.NumberedFileInputSplit(java.lang.String, int, int)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(int, org.nd4j.linalg.dataset.DataSet)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.io.filters.RandomPathFilter.RandomPathFilter(java.util.Random, java.lang.String[])
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, org.datavec.api.io.WritableConverter, int, int, int, int, int, boolean)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[])
+org.nd4j.linalg.factory.Nd4j.Nd4j()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, int)
+java.io.File.File(java.net.URI)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.util.Random)
+java.io.File.File(java.io.File, java.lang.String)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, boolean)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

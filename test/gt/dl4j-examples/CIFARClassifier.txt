@@ -1,0 +1,58 @@
+------CLASSES------
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.deeplearning4j.optimize.listeners.ScoreIterationListener
+org.deeplearning4j.optimize.listeners.EvaluativeListener
+org.deeplearning4j.nn.conf.layers.OutputLayer
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer
+org.nd4j.linalg.learning.config.AdaDelta
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.deeplearning4j.nn.conf.layers.BatchNormalization
+org.deeplearning4j.nn.conf.MultiLayerConfiguration
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.save(java.io.File, boolean)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.name(java.lang.String)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.setListeners(org.deeplearning4j.optimize.api.TrainingListener...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.dropOut(double)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.list()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.padding(int...)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator, int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.setInputType(org.deeplearning4j.nn.conf.inputs.InputType)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.kernelSize(int...)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.BaseSubsamplingBuilder.poolingType(org.deeplearning4j.nn.conf.layers.SubsamplingLayer.PoolingType)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.build()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(org.deeplearning4j.nn.conf.layers.Layer)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.optimizationAlgo(org.deeplearning4j.nn.api.OptimizationAlgorithm)
+org.deeplearning4j.nn.conf.inputs.InputType.convolutional(long, long, long)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.kernelSize(int...)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.init()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.seed(long)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.nd4j.linalg.learning.config.AdaDelta.AdaDelta()
+org.deeplearning4j.optimize.listeners.ScoreIterationListener.ScoreIterationListener(int)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.MultiLayerNetwork(org.deeplearning4j.nn.conf.MultiLayerConfiguration)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder()
+org.deeplearning4j.optimize.listeners.EvaluativeListener.EvaluativeListener(org.nd4j.linalg.dataset.api.iterator.DataSetIterator, int, org.deeplearning4j.optimize.api.InvocationType)
+org.deeplearning4j.datasets.iterator.impl.Cifar10DataSetIterator.Cifar10DataSetIterator(int, int[], org.deeplearning4j.datasets.fetchers.DataSetType, org.datavec.image.transform.ImageTransform, long)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.BatchNormalization()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder()
+------END OF CONSTRUCTORS------

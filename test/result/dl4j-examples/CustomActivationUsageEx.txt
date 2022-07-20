@@ -1,0 +1,321 @@
+------CLASSES------
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.optimize.listeners.EvaluativeListener
+java.lang.Integer
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.nd4j.linalg.learning.config.Sgd
+org.deeplearning4j.nn.conf.layers.BatchNormalization
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer
+org.nd4j.linalg.schedule.ISchedule
+org.datavec.api.records.writer.RecordWriter
+org.nd4j.common.io.ClassPathResource
+org.deeplearning4j.optimize.api.IterationListener
+org.deeplearning4j.nn.weights.WeightInit
+org.nd4j.linalg.learning.AdamUpdater
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.PoolingType
+org.nd4j.linalg.factory.Nd4j
+org.datavec.api.io.filters.PathFilter
+org.nd4j.linalg.learning.AdaDeltaUpdater
+org.nd4j.linalg.learning.config.AMSGrad
+org.deeplearning4j.optimize.api.TrainingListener
+org.deeplearning4j.nn.conf.layers.Layer
+org.nd4j.linalg.learning.RmsPropUpdater
+org.datavec.api.split.partition.PartitionMetaData
+org.deeplearning4j.nn.api.OptimizationAlgorithm
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder
+org.nd4j.linalg.learning.config.Nadam
+java.lang.Double
+org.nd4j.linalg.dataset.api.DataSet
+org.datavec.api.records.metadata.RecordMetaData
+org.nd4j.linalg.learning.NoOpUpdater
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer
+org.nd4j.linalg.learning.config.IUpdater
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder
+org.nd4j.linalg.schedule.MapSchedule
+java.util.Collection<URI>
+org.deeplearning4j.nn.conf.MultilayerConfiguration
+org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction
+java.util.Iterator<URI>
+org.datavec.api.io.labels.PathLabelGenerator
+org.nd4j.linalg.activations.Activation
+org.nd4j.linalg.learning.NesterovsUpdater
+org.nd4j.linalg.learning.NadamUpdater
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.nd4j.linalg.learning.config.NoOp
+org.datavec.api.writable.Writable
+java.io.File
+java.util.List<List>
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.deeplearning4j.nn.layers.BaseOutputLayer<>
+org.deeplearning4j.nn.conf.inputs.InputType
+org.deeplearning4j.nn.conf.MultiLayerConfiguration
+org.nd4j.linalg.api.ndarray.INDArray
+org.datavec.api.split.NumberedFileInputSplit
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+org.deeplearning4j.nn.conf.layers.DropoutLayer
+org.nd4j.linalg.learning.config.Nesterovs
+org.nd4j.linalg.learning.config.Adam
+org.nd4j.linalg.learning.AdaGradUpdater
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer
+org.datavec.api.split.CollectionInputSplit
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.conf.Configuration
+org.deeplearning4j.nn.conf.layers.OutputLayer
+java.util.Random
+org.deeplearning4j.nn.layers.BaseLayer<>
+java.net.URI
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder
+org.nd4j.linalg.learning.config.AdaGrad
+org.nd4j.linalg.dataset.DataSet
+org.deeplearning4j.optimize.listeners.ScoreIterationListener
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT
+org.nd4j.linalg.learning.AMSGradUpdater
+java.util.Map<Integer,Double>
+org.datavec.api.split.InputSplit
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder
+org.deeplearning4j.optimize.api.BaseTrainingListener
+java.util.List<Writable>
+org.nd4j.linalg.api.rng.Random
+org.datavec.api.io.WritableConverter
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder
+org.nd4j.linalg.learning.config.AdaDelta
+org.nd4j.linalg.schedule.StepSchedule
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader
+org.datavec.api.io.filters.BalancedPathFilter
+org.nd4j.linalg.lossfunctions.ILossFunction
+org.nd4j.linalg.dataset.SplitTestAndTrain
+org.nd4j.linalg.learning.config.RmsProp
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder
+org.datavec.api.split.partition.Partitioner
+org.nd4j.linalg.learning.SgdUpdater
+org.datavec.api.split.FileSplit
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder
+org.deeplearning4j.nn.conf.layers.BaseOutputLayer.Builder
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.gradientCheck(boolean)
+org.datavec.api.split.FileSplit.locations()
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.lambda(double)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.DataSet)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+java.util.Iterator<URI>.next()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(long)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.DataSet.sample(int, org.nd4j.linalg.api.rng.Random)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(long)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.hasNext()
+org.nd4j.linalg.factory.Nd4j.hstack(org.nd4j.linalg.api.ndarray.INDArray...)
+org.nd4j.linalg.factory.Nd4j.vstack(org.nd4j.linalg.api.ndarray.INDArray...)
+org.datavec.api.split.CollectionInputSplit.locationsIterator()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.l1(double)
+org.nd4j.linalg.factory.Nd4j.create(double[][])
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit)
+org.nd4j.linalg.factory.Nd4j.create(double[][][])
+org.nd4j.linalg.factory.Nd4j.create(int[][])
+org.deeplearning4j.nn.conf.inputs.InputType.convolutional(long, long, long)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.nIn(int)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.hasNext()
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.poolingType(org.deeplearning4j.nn.conf.layers.PoolingType)
+org.deeplearning4j.nn.conf.inputs.InputType.convolutionalFlat(long, long, long)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.layers.BaseOutputLayer.Builder.lossFunction(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.nd4j.linalg.factory.Nd4j.create(int[])
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nInt(int)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.poolingDimensions(int...)
+org.nd4j.linalg.factory.Nd4j.vstack(int...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.stride(int...)
+org.nd4j.linalg.factory.Nd4j.create(double[])
+org.deeplearning4j.nn.conf.inputs.InputType.convolutional3D(int, int, int, int)
+org.datavec.api.records.writer.RecordWriter.close()
+org.nd4j.linalg.dataset.DataSet.numInputs()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.padding(int...)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.nOut(int)
+org.datavec.api.records.reader.RecordReader.hasNext()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.padding(int...)
+org.datavec.api.records.writer.RecordWriter.writeBatch(java.util.List)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.next(int)
+org.nd4j.linalg.factory.Nd4j.float(float[][][])
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.dropOut(double)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.l2(double)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next()
+org.datavec.api.split.FileSplit.sample(org.datavec.api.io.filters.PathFilter, double[])
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.reset()
+org.nd4j.linalg.factory.Nd4j.create(float[])
+org.deeplearning4j.nn.conf.inputs.InputType.feedForward(long)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.factory.Nd4j.create(float[][])
+org.datavec.api.split.FileSplit.locationsIterator()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.kernelSize(int...)
+org.nd4j.linalg.factory.Nd4j.hstack(int...)
+org.nd4j.linalg.dataset.DataSet.numExamples()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.init()
+org.nd4j.linalg.factory.Nd4j.create(int[][][])
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next(int)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.nd4j.linalg.dataset.DataSet.getLabels()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.loadFromMetaData(org.datavec.api.records.metadata.RecordMetaData)
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.alpha(double)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.summary()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.setListeners(org.deeplearning4j.optimize.api.TrainingListener...)
+org.deeplearning4j.nn.conf.inputs.InputType.feedForward(int)
+org.deeplearning4j.nn.conf.inputs.InputType.convolutional(int, int, int)
+org.nd4j.linalg.dataset.DataSet.sample(int, boolean)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator, int)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.activation(int)
+org.datavec.api.records.reader.RecordReader.next()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.hasNext()
+org.deeplearning4j.nn.conf.inputs.InputType.convolutionalFlat(int, int, int)
+java.util.Iterator<URI>.hasNext()
+org.nd4j.linalg.api.ndarray.INDArray.putScaler(int[], int)
+org.nd4j.linalg.dataset.SplitTestAndTrain.getTrain()
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.kernelSize(int...)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.build()
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.next()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(org.deeplearning4j.nn.conf.layers.Layer)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.optimizationAlgo(org.deeplearning4j.nn.api.OptimizationAlgorithm)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.setInputType(int)
+org.nd4j.common.io.ClassPathResource.getFile()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nIn(long)
+org.nd4j.linalg.dataset.DataSet.numOutcomes()
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder.build()
+org.nd4j.linalg.dataset.DataSet.getFeatures()
+org.nd4j.linalg.factory.Nd4j.create(float[][][])
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.learningRate(double)
+org.datavec.api.split.NumberedFileInputSplit.locationsIterator()
+org.deeplearning4j.nn.conf.inputs.InputType.convolutional3D(long, long, long, long)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.l2(double)
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.list()
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.setInputType(org.deeplearning4j.nn.conf.inputs.InputType)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.miniBatch(boolean)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.biasInit(double)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.name(java.lang.String)
+org.nd4j.linalg.dataset.DataSet.sample(int)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nOut(long)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.testFold()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(int, org.deeplearning4j.nn.conf.layers.Layer)
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.nd4j.linalg.dataset.DataSet.get(int)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.nOut(int)
+org.datavec.api.split.NumberedFileInputSplit.locations()
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.seed(long)
+------END OF API CALLS------
+------CONSTRUCTORS------
+java.io.File.File(java.lang.String, java.lang.String)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], boolean)
+org.nd4j.linalg.learning.config.Nadam.Nadam(double)
+org.nd4j.linalg.learning.config.Adam.Adam(double, double, double, double)
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.CenterLossOutputLayer$Builder()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder()
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad(double)
+org.deeplearning4j.optimize.api.IterationListener.IterationListener()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(int...)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.learning.config.Adam.Adam()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.nd4j.linalg.learning.config.RmsProp.RmsProp()
+org.nd4j.linalg.learning.NadamUpdater.NadamUpdater(org.nd4j.linalg.learning.config.Nadam)
+org.nd4j.linalg.dataset.SplitTestAndTrain.SplitTestAndTrain(org.nd4j.linalg.dataset.DataSet, org.nd4j.linalg.dataset.DataSet)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.BatchNormalization()
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad()
+org.deeplearning4j.nn.conf.layers.CenterLossOutputLayer.Builder.CenterLossOutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder()
+org.deeplearning4j.nn.conf.layers.BaseOutputLayer.Builder.BaseOutputLayer$Builder(org.nd4j.linalg.lossfunctions.ILossFunction)
+org.deeplearning4j.nn.conf.layers.GlobalPoolingLayer.Builder.GlobalPoolingLayer$Builder()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], java.util.Random)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder(int...)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(java.util.Collection)
+org.datavec.api.split.NumberedFileInputSplit.NumberedFileInputSplit(java.lang.String, int, int)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(int, org.nd4j.linalg.dataset.DataSet)
+org.deeplearning4j.nn.conf.layers.BaseOutputLayer.Builder.BaseOutputLayer$Builder()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.ILossFunction)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.FeedForwardLayer$Builder()
+org.nd4j.linalg.learning.SgdUpdater.SgdUpdater(org.nd4j.linalg.learning.config.Sgd)
+org.nd4j.linalg.factory.Nd4j.Nd4j()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, int)
+java.io.File.File(java.net.URI)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.util.Random)
+java.io.File.File(java.io.File, java.lang.String)
+org.nd4j.linalg.learning.AMSGradUpdater.AMSGradUpdater(org.nd4j.linalg.learning.config.AMSGrad)
+org.nd4j.linalg.learning.config.Adam.Adam(org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.config.Nadam.Nadam(double, double, double, double)
+org.nd4j.linalg.learning.config.AdaDelta.AdaDelta()
+org.nd4j.linalg.learning.NoOpUpdater.NoOpUpdater(org.nd4j.linalg.learning.config.NoOp)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT(double, org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.conf.layers.BatchNormalization.Builder.BatchNormalization$Builder()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(org.deeplearning4j.nn.conf.layers.PoolingType)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.MultiLayerNetwork(org.deeplearning4j.nn.conf.MultiLayerConfiguration)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(org.nd4j.linalg.dataset.DataSet)
+org.nd4j.linalg.learning.config.Nadam.Nadam()
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(URI[])
+org.deeplearning4j.optimize.listeners.EvaluativeListener.EvaluativeListener(org.nd4j.linalg.dataset.api.iterator.DataSetIterator, int, org.deeplearning4j.optimize.api.InvocationType)
+org.nd4j.linalg.learning.config.Sgd.Sgd(double)
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad(double, double, double, double)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT(org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, double)
+org.deeplearning4j.optimize.listeners.ScoreIterationListener.ScoreIterationListener()
+org.nd4j.linalg.learning.AdaDeltaUpdater.AdaDeltaUpdater(org.nd4j.linalg.learning.config.AdaDelta)
+org.nd4j.linalg.learning.config.AdaDelta.AdaDelta(double, double)
+org.nd4j.linalg.learning.config.Adam.Adam(double)
+org.datavec.api.io.filters.BalancedPathFilter.BalancedPathFilter(java.util.Random, java.lang.String[], org.datavec.api.io.labels.PathLabelGenerator)
+org.deeplearning4j.optimize.listeners.EvaluativeListener.EvaluativeListener(org.nd4j.linalg.dataset.api.iterator.DataSetIterator, int)
+org.nd4j.linalg.dataset.DataSet.DataSet()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs()
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader.CollectionRecordReader(java.util.List)
+org.nd4j.linalg.lossfunctions.impl.LossMCXENT.LossMCXENT()
+org.deeplearning4j.nn.conf.layers.DropoutLayer.DropoutLayer(double)
+org.deeplearning4j.optimize.api.BaseTrainingListener.BaseTrainingListener()
+org.nd4j.linalg.schedule.StepSchedule.StepSchedule(org.nd4j.linalg.schedule.ScheduleType, double, double, double)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(org.deeplearning4j.nn.conf.layers.SubsamplingLayer.PoolingType)
+org.nd4j.linalg.schedule.MapSchedule.MapSchedule(org.nd4j.linalg.schedule.ScheduleType, java.util.Map)
+java.io.File.File(java.lang.String)
+org.nd4j.linalg.learning.config.RmsProp.RmsProp(double)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double)
+org.deeplearning4j.optimize.listeners.ScoreIterationListener.ScoreIterationListener(int)
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad(double, double)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, org.datavec.api.io.WritableConverter, int, int, int, int, int, boolean)
+org.nd4j.linalg.learning.RmsPropUpdater.RmsPropUpdater(org.nd4j.linalg.learning.config.RmsProp)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[])
+org.nd4j.linalg.learning.config.Sgd.Sgd()
+org.nd4j.linalg.learning.config.AMSGrad.AMSGrad()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.config.NoOp.NoOp()
+org.nd4j.linalg.learning.config.AdaGrad.AdaGrad(double)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.nd4j.linalg.learning.config.RmsProp.RmsProp(double, double, double)
+org.nd4j.linalg.learning.NesterovsUpdater.NesterovsUpdater(org.nd4j.linalg.learning.config.Nesterovs)
+org.nd4j.linalg.learning.AdaGradUpdater.AdaGradUpdater(org.nd4j.linalg.learning.config.AdaGrad)
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, org.nd4j.linalg.schedule.ISchedule)
+org.nd4j.linalg.learning.AdamUpdater.AdamUpdater(org.nd4j.linalg.learning.config.Adam)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, boolean)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

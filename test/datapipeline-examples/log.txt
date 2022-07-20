@@ -1,0 +1,65 @@
+______________________________
+test/gt/datapipeline-examples\Ex05_SamplingBaseInputSplitExample
+sample_classes len: 23
+sample_apis len: 62
+{'org.datavec.api.io.labels.ParentPathLabelGenerator'}
+{'org.datavec.api.io.labels.ParentPathLabelGenerator.ParentPathLabelGenerator()', 'org.datavec.api.split.FileSplit.length()'}
+[0.8333333333333334, 0.6666666666666666]
+[0.21739130434782608, 0.06451612903225806]
+______________________________
+test/gt/datapipeline-examples\IrisCSVTransform
+sample_classes len: 42
+sample_apis len: 128
+set()
+set()
+[1.0, 1.0]
+[0.19047619047619047, 0.1015625]
+______________________________
+test/gt/datapipeline-examples\LoadCSV
+sample_classes len: 42
+sample_apis len: 128
+{'org.nd4j.linalg.dataset.SplitTestAndTrain'}
+{'org.nd4j.linalg.dataset.DataSet.splitTestAndTrain(double)', 'org.nd4j.linalg.dataset.DataSet.getFeatures()', 'org.nd4j.linalg.dataset.SplitTestAndTrain.getTrain()', 'org.nd4j.linalg.api.ndarray.INDArray.shape()', 'org.nd4j.linalg.dataset.SplitTestAndTrain.getTest()'}
+[0.9, 0.6666666666666666]
+[0.21428571428571427, 0.078125]
+______________________________
+test/gt/datapipeline-examples\LoadImageDemo
+sample_classes len: 44
+sample_apis len: 111
+set()
+set()
+[1.0, 1.0]
+[0.29545454545454547, 0.11711711711711711]
+______________________________
+test/gt/datapipeline-examples\MultiOpReduceExample
+sample_classes len: 34
+sample_apis len: 109
+set()
+set()
+[1.0, 1.0]
+[0.11764705882352941, 0.11009174311926606]
+______________________________
+test/gt/datapipeline-examples\PivotExample
+sample_classes len: 42
+sample_apis len: 128
+set()
+set()
+[1.0, 1.0]
+[0.19047619047619047, 0.1171875]
+______________________________
+test/gt/datapipeline-examples\WebLogDataExample
+sample_classes len: 42
+sample_apis len: 128
+{'org.datavec.api.writable.IntWritable'}
+{'org.datavec.api.writable.IntWritable.IntWritable(int)'}
+[0.8888888888888888, 0.9375]
+[0.19047619047619047, 0.1171875]
+___________
+[[0.8333333333333334, 0.6666666666666666], [1.0, 1.0], [0.9, 0.6666666666666666], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0], [0.8888888888888888, 0.9375]]
+[[0.21739130434782608, 0.06451612903225806], [0.19047619047619047, 0.1015625], [0.21428571428571427, 0.078125], [0.29545454545454547, 0.11711711711711711], [0.11764705882352941, 0.11009174311926606], [0.19047619047619047, 0.1171875], [0.19047619047619047, 0.1171875]]
+___________
+[[0.8333333333333334, 1.0, 0.9, 1.0, 1.0, 1.0, 0.8888888888888888], [0.6666666666666666, 1.0, 0.6666666666666666, 1.0, 1.0, 1.0, 0.9375]]
+[[0.21739130434782608, 0.19047619047619047, 0.21428571428571427, 0.29545454545454547, 0.11764705882352941, 0.19047619047619047, 0.19047619047619047], [0.06451612903225806, 0.1015625, 0.078125, 0.11711711711711711, 0.11009174311926606, 0.1171875, 0.1171875]]
+<class 'list'>
+<class 'list'>
+[Finished in 71.5s]

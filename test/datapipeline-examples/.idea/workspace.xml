@@ -2,40 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd50ddb-b48e-48dc-918a-3792ebc2fc5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex05_SamplingBaseInputSplitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImagePipelineExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IrisCSVTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultiOpReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PivotExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebLogDataExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/CSVMixedDataTypesLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex01_FileSplitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex02_CollectionSplitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex03_NumberedFileInputSplitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/Ex06_KFoldIteratorFromDataSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/IrisNormalizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/datapipeline-examples/PrintSchemasAtEachStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/advanced/features/customizingdl4j/activationfunctions/CustomActivationUsageEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/classimbalance/WeightedLossFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/modelsavingloading/SaveLoadComputationGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/modelsavingloading/SaveLoadMultiLayerNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/features/presavingdatasets/PreSaveFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/CIFARClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/LeNetMNIST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/convolution/LeNetMNISTReLu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/IrisClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/LinearDataClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MNISTDoubleLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MNISTSingleLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/MoonClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/classification/SaturnClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/regression/CSVDataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validation/dl4j-examples/quickstart/modeling/feedforward/regression/SumModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../validator_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../validator.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/BirdClassification.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/CIFARClassifier.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/CenterLossLeNetMNIST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/CustomActivationUsageEx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/HeartDiseaseBinaryClassification.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/LeNetMNISTReLu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/LoadCSVHousePrice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/MnistClassifier.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/MnistImageLoad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/ModelXOR.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/Multiclass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/SimplestNetwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/SumModel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/WomenChessPlayer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/BirdClassification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/CIFARClassifier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/CenterLossLeNetMNIST.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/CustomActivationUsageEx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/HeartDiseaseBinaryClassification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/LeNetMNISTReLu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/LoadCSV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/LoadCSVHousePrice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/LoadImageDemo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/MnistClassifier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/MnistImageLoad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/ModelXOR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/Multiclass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/SimplestNetwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/SumModel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gt/dl4j-examples/fig/WomenChessPlayer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gt/datapipeline-examples/Ex05_SamplingBaseInputSplitExample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../gt/datapipeline-examples/Ex05_SamplingBaseInputSplitExample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gt/datapipeline-examples/ImagePipelineExample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/CSVMixedDataTypesLocal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/Ex01_FileSplitExample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/Ex02_CollectionSplitExample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/Ex03_NumberedFileInputSplitExample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/Ex06_KFoldIteratorFromDataSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/IrisNormalizer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/datapipeline-examples/PrintSchemasAtEachStep.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/CSVDataModel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/IrisClassifier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/LeNetMNIST.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/LinearDataClassifier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/MNISTDoubleLayer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/MNISTSingleLayer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/MoonClassifier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/PreSaveFirst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/SaturnClassifier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/SaveLoadCompuatationGraph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/SaveLoadMultiLayerNetwork.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validation/sample/dl4j-examples/WeightedLossFunctionExample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../validator_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../validator_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +77,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1657123746048</updated>
       <workItem from="1657123747389" duration="8428000" />
-      <workItem from="1657137922913" duration="12826000" />
+      <workItem from="1657137922913" duration="13497000" />
+      <workItem from="1658165318362" duration="5029000" />
     </task>
     <servers />
   </component>

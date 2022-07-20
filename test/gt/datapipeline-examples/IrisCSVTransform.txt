@@ -13,7 +13,7 @@ org.datavec.api.transform.TransformProcess.Builder.categoricalToInteger(java.lan
 org.datavec.api.transform.TransformProcess.Builder.build()
 org.datavec.api.transform.schema.Schema.Builder.build()
 org.datavec.api.records.reader.RecordReader.next()
-org.datavec.api.transform.schema.Schema.Builder.addColumnCategorical(java.lang.String, java.lang.String...)
+org.datavec.api.transform.schema.Schema.Builder.addColumnCategorical(java.lang.String,java.util.List<java.lang.String>)
 org.datavec.local.transforms.LocalTransformExecutor.execute(java.util.List<java.util.List<org.datavec.api.writable.Writable>>, org.datavec.api.transform.TransformProcess)
 org.datavec.api.transform.schema.Schema.Builder.addColumnsDouble(java.lang.String...)
 org.datavec.api.records.reader.RecordReader.hasNext()

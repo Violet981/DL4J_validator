@@ -1,0 +1,72 @@
+------CLASSES------
+org.datavec.api.records.reader.RecordReader
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.datavec.api.transform.TransformProcess.Builder
+org.deeplearning4j.nn.conf.layers.OutputLayer
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.nd4j.common.io.ClassPathResource
+org.datavec.api.records.reader.impl.csv.CSVRecordReader
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.datavec.api.writable.Writable
+org.datavec.api.split.FileSplit
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.nd4j.evaluation.classification.Evaluation
+org.datavec.api.transform.schema.Schema.Builder
+org.deeplearning4j.nn.conf.MultiLayerConfiguration
+org.datavec.api.transform.TransformProcess
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+org.deeplearning4j.nn.conf.layers.DropoutLayer
+org.nd4j.linalg.learning.config.Nesterovs
+org.datavec.api.transform.schema.Schema
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.evaluate(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.nd4j.evaluation.classification.Evaluation.stats()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.list()
+org.datavec.api.transform.schema.Schema.Builder.build()
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.datavec.api.records.reader.RecordReader.next()
+org.datavec.api.transform.schema.Schema.Builder.addColumnsFloat(java.lang.String...)
+org.datavec.local.transforms.LocalTransformExecutor.execute(java.util.List<java.util.List<org.datavec.api.writable.Writable>>, org.datavec.api.transform.TransformProcess)
+org.datavec.api.records.reader.RecordReader.hasNext()
+org.nd4j.evaluation.classification.Evaluation.accuracy()
+org.datavec.api.transform.TransformProcess.Builder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(int, org.deeplearning4j.nn.conf.layers.Layer)
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.build()
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.reset()
+org.datavec.api.transform.TransformProcess.Builder.categoricalToInteger(java.lang.String...)
+org.nd4j.common.io.ClassPathResource.getFile()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.setPreProcessor(org.nd4j.linalg.dataset.api.DataSetPreProcessor)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.init()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.seed(long)
+org.datavec.api.transform.schema.Schema.Builder.addColumnCategorical(java.lang.String, java.util.List<java.lang.String>)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.datavec.api.records.reader.impl.csv.CSVRecordReader.CSVRecordReader(int, char)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.MultiLayerNetwork(org.deeplearning4j.nn.conf.MultiLayerConfiguration)
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, double)
+org.datavec.api.transform.schema.Schema.Builder.Schema$Builder()
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.datavec.api.transform.TransformProcess.Builder.TransformProcess$Builder(org.datavec.api.transform.schema.Schema)
+org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize.NormalizerStandardize()
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.deeplearning4j.nn.conf.layers.DropoutLayer.DropoutLayer(double)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+------END OF CONSTRUCTORS------

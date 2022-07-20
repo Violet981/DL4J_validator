@@ -1,0 +1,53 @@
+------CLASSES------
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder
+org.deeplearning4j.optimize.listeners.ScoreIterationListener
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+org.deeplearning4j.nn.conf.layers.OutputLayer
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator
+org.deeplearning4j.nn.conf.layers.DenseLayer
+org.deeplearning4j.nn.conf.NeuralNetConfiguration
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork
+org.nd4j.evaluation.classification.Evaluation
+org.deeplearning4j.nn.conf.MultiLayerConfiguration
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder
+org.nd4j.linalg.learning.config.Nesterovs
+------END OF CLASSES------
+------API CALLS------
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.layer(int, org.deeplearning4j.nn.conf.layers.Layer)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nIn(int)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.ListBuilder.build()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.setListeners(org.deeplearning4j.optimize.api.TrainingListener...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.stride(int...)
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.reset()
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.evaluate(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.weightInit(org.deeplearning4j.nn.weights.WeightInit)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.list()
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.kernelSize(int...)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.build()
+org.deeplearning4j.nn.conf.layers.FeedForwardLayer.Builder.nOut(int)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.stride(int...)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.updater(org.nd4j.linalg.learning.config.IUpdater)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.init()
+org.deeplearning4j.nn.conf.layers.BaseLayer.Builder.activation(org.nd4j.linalg.activations.Activation)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.seed(long)
+------END OF API CALLS------
+------CONSTRUCTORS------
+org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator.MnistDataSetIterator(int, boolean, int)
+org.deeplearning4j.nn.conf.layers.ConvolutionLayer.Builder.ConvolutionLayer$Builder(int...)
+org.deeplearning4j.nn.conf.layers.OutputLayer.Builder.OutputLayer$Builder(org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction)
+org.deeplearning4j.optimize.listeners.ScoreIterationListener.ScoreIterationListener(int)
+org.deeplearning4j.nn.multilayer.MultiLayerNetwork.MultiLayerNetwork(org.deeplearning4j.nn.conf.MultiLayerConfiguration)
+org.deeplearning4j.nn.conf.NeuralNetConfiguration.Builder.NeuralNetConfiguration$Builder()
+org.deeplearning4j.nn.conf.layers.DenseLayer.Builder.DenseLayer$Builder()
+org.nd4j.linalg.learning.config.Nesterovs.Nesterovs(double, double)
+org.deeplearning4j.nn.conf.layers.SubsamplingLayer.Builder.SubsamplingLayer$Builder(org.deeplearning4j.nn.conf.layers.SubsamplingLayer.PoolingType)
+------END OF CONSTRUCTORS------

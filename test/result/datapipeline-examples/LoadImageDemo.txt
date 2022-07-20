@@ -1,0 +1,174 @@
+------CLASSES------
+org.datavec.api.io.labels.ParentPathLabelGenerator
+org.datavec.api.split.CollectionInputSplit
+org.datavec.image.transform.RotateImageTransform
+org.datavec.api.records.reader.RecordReader
+org.datavec.api.conf.Configuration
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization
+org.nd4j.linalg.dataset.api.DataSetPreProcessor
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator
+java.util.Random
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler
+org.datavec.api.records.writer.RecordWriter
+org.nd4j.common.io.ClassPathResource
+org.datavec.image.transform.ScaleImageTransofrm
+org.datavec.image.recordreader.BaseImageRecordReader
+org.datavec.image.transform.FlipImageTransform
+java.net.URI
+org.datavec.image.transform.EqualizeHistTransform
+org.datavec.image.loader.NativeImageLoader
+org.nd4j.linalg.dataset.DataSet
+org.datavec.api.io.filters.PathFilter
+org.nd4j.linalg.factory.Nd4j
+org.datavec.image.loader.BaseImageLoader
+org.datavec.image.transform.CropImageTransform
+org.datavec.api.split.partition.PartitionMetaData
+org.datavec.api.io.filters.RandomPathFilter
+org.datavec.api.split.InputSplit
+org.datavec.image.transform.MultiImageTransform
+java.util.List<Writable>
+org.datavec.api.io.labels.PathMultiLabelGenerator
+org.nd4j.linalg.dataset.api.DataSet
+org.datavec.api.records.metadata.RecordMetaData
+org.datavec.api.io.WritableConverter
+org.datavec.image.recordreader.ImageRecordReader
+org.datavec.image.data.ImageWritable
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader
+org.datavec.api.io.filters.BalancedPathFilter
+org.datavec.image.transform.ShowImageTransform
+java.util.Collection<URI>
+java.util.Iterator<URI>
+org.datavec.api.io.labels.PathLabelGenerator
+org.datavec.image.transform.ResizeImageTransform
+org.datavec.api.split.partition.Partitioner
+org.datavec.image.transform.ImageTransform
+org.datavec.api.writable.Writable
+org.datavec.api.split.FileSplit
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator
+java.io.File
+java.util.List<List>
+org.nd4j.linalg.api.ndarray.INDArray
+org.datavec.api.split.NumberedFileInputSplit
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator
+------END OF CLASSES------
+------API CALLS------
+org.datavec.api.split.FileSplit.locations()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.loadFromMetaData(org.datavec.api.records.metadata.RecordMetaData)
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+java.util.Iterator<URI>.next()
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.transform(org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.transformLabel(org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.hasNext()
+org.datavec.api.records.reader.RecordReader.next()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.hasNext()
+org.nd4j.linalg.factory.Nd4j.hstack(org.nd4j.linalg.api.ndarray.INDArray...)
+org.datavec.image.recordreader.BaseImageRecordReader.initialize(org.datavec.api.split.InputSplit, org.datavec.image.transform.ImageTransform)
+org.nd4j.linalg.factory.Nd4j.vstack(org.nd4j.linalg.api.ndarray.INDArray...)
+java.util.Iterator<URI>.hasNext()
+org.datavec.api.split.CollectionInputSplit.locationsIterator()
+org.nd4j.linalg.api.ndarray.INDArray.putScaler(int[], int)
+org.nd4j.linalg.factory.Nd4j.create(double[][])
+org.datavec.api.records.reader.RecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.next()
+org.nd4j.linalg.factory.Nd4j.create(double[][][])
+org.datavec.image.recordreader.ImageRecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit, org.datavec.image.transform.ImageTransform)
+org.nd4j.linalg.factory.Nd4j.create(int[][])
+org.datavec.api.io.filters.RandomPathFilter.filter(URI[])
+org.nd4j.common.io.ClassPathResource.getFile()
+org.nd4j.linalg.dataset.api.iterator.DataSetIterator.setPreProcessor(org.nd4j.linalg.dataset.api.DataSetPreProcessor)
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.transformLabel(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.dataset.DataSet.numOutcomes()
+org.nd4j.linalg.factory.Nd4j.create(int[])
+org.datavec.image.recordreader.ImageRecordReader.initialize(org.datavec.api.split.InputSplit)
+org.datavec.api.split.NumberedFileInputSplit.locationsIterator()
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.transform(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.nd4j.linalg.factory.Nd4j.create(double[])
+org.datavec.api.records.writer.RecordWriter.close()
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.datavec.image.recordreader.ImageRecordReader.initialize(org.datavec.api.split.InputSplit, org.datavec.image.transform.ImageTransform)
+org.nd4j.linalg.dataset.DataSet.numInputs()
+org.datavec.image.recordreader.ImageRecordReader.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit)
+org.nd4j.linalg.dataset.api.preprocessor.DataNormalization.fit(org.nd4j.linalg.dataset.api.iterator.DataSetIterator)
+org.datavec.api.records.reader.RecordReader.hasNext()
+org.datavec.api.records.writer.RecordWriter.writeBatch(java.util.List)
+org.datavec.image.recordreader.BaseImageRecordReader.initialize(org.datavec.api.split.InputSplit)
+org.nd4j.linalg.factory.Nd4j.float(float[][][])
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.testFold()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next()
+org.datavec.api.records.writer.RecordWriter.initialize(org.datavec.api.conf.Configuration, org.datavec.api.split.InputSplit, org.datavec.api.split.partition.Partitioner)
+org.datavec.api.split.FileSplit.sample(org.datavec.api.io.filters.PathFilter, double[])
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.fit(org.nd4j.linalg.dataset.api.DataSet)
+org.nd4j.linalg.factory.Nd4j.create(float[])
+org.datavec.api.split.FileSplit.locationsIterator()
+org.datavec.api.split.NumberedFileInputSplit.locations()
+org.nd4j.linalg.factory.Nd4j.create(float[][])
+org.nd4j.linalg.dataset.DataSet.numExamples()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.next(int)
+org.nd4j.linalg.factory.Nd4j.create(int[][][])
+------END OF API CALLS------
+------CONSTRUCTORS------
+java.io.File.File(java.lang.String, java.lang.String)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], boolean)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long, org.datavec.image.transform.ImageTransform)
+org.datavec.image.transform.EqualizeHistTransform.EqualizeHistTransform()
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.ImagePreProcessingScaler(double, double)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, org.datavec.api.io.labels.PathLabelGenerator)
+org.datavec.image.transform.RotateImageTransform.RotateImageTransform(float)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[], java.util.Random)
+org.datavec.api.io.labels.ParentPathLabelGenerator.ParentPathLabelGenerator()
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(java.util.Collection)
+org.datavec.api.split.NumberedFileInputSplit.NumberedFileInputSplit(java.lang.String, int, int)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long, org.datavec.api.io.labels.PathLabelGenerator, org.datavec.image.transform.ImageTransform)
+org.datavec.image.transform.ResizeImageTransform.ResizeImageTransform(int, int)
+org.datavec.image.transform.ScaleImageTransofrm.ScaleImageTransofrm(java.util.Random, float)
+org.datavec.image.transform.ScaleImageTransofrm.ScaleImageTransofrm(java.util.Random, float, float)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(int, org.nd4j.linalg.dataset.DataSet)
+org.datavec.image.transform.RotateImageTransform.RotateImageTransform(java.util.Random, float, float, float, float)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long)
+org.datavec.api.io.filters.BalancedPathFilter.BalancedPathFilter(java.util.Random, org.datavec.api.io.labels.PathLabelGenerator, long)
+org.datavec.image.transform.CropImageTransform.CropImageTransform(int, int, int, int)
+org.nd4j.linalg.factory.Nd4j.Nd4j()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, int)
+java.io.File.File(java.net.URI)
+org.datavec.image.transform.CropImageTransform.CropImageTransform(java.util.Random, int, int, int, int)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.util.Random)
+java.io.File.File(java.io.File, java.lang.String)
+org.datavec.image.transform.CropImageTransform.CropImageTransform(java.util.Random, int)
+org.datavec.image.transform.RotateImageTransform.RotateImageTransform(java.util.Random, float)
+org.nd4j.linalg.dataset.api.iterator.KFoldIterator.KFoldIterator(org.nd4j.linalg.dataset.DataSet)
+org.datavec.api.split.CollectionInputSplit.CollectionInputSplit(URI[])
+org.datavec.image.transform.RotateImageTransform.RotateImageTransform(java.util.Random)
+org.datavec.image.transform.MultiImageTransform.MultiImageTransform(org.datavec.image.transform.ImageTransform)
+org.datavec.image.transform.ScaleImageTransofrm.ScaleImageTransofrm(float)
+org.datavec.image.transform.ShowImageTransform.ShowImageTransform(java.lang.String)
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.ImagePreProcessingScaler()
+org.datavec.image.transform.ScaleImageTransofrm.ScaleImageTransofrm(float, float)
+org.datavec.api.io.filters.BalancedPathFilter.BalancedPathFilter(java.util.Random, java.lang.String[], org.datavec.api.io.labels.PathLabelGenerator)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long, boolean, org.datavec.api.io.labels.PathLabelGenerator, org.datavec.image.transform.ImageTransform)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long, org.datavec.api.io.labels.PathLabelGenerator)
+org.datavec.api.io.filters.RandomPathFilter.RandomPathFilter(java.util.Random, java.lang.String[], long)
+org.nd4j.linalg.dataset.DataSet.DataSet()
+org.datavec.image.transform.FlipImageTransform.FlipImageTransform(int)
+org.datavec.api.records.reader.impl.collection.CollectionRecordReader.CollectionRecordReader(java.util.List)
+org.datavec.image.transform.CropImageTransform.CropImageTransform(int)
+org.datavec.image.loader.NativeImageLoader.NativeImageLoader(long, long, long)
+java.io.File.File(java.lang.String)
+org.nd4j.linalg.dataset.DataSet.DataSet(org.nd4j.linalg.api.ndarray.INDArray, org.nd4j.linalg.api.ndarray.INDArray)
+org.datavec.api.io.filters.RandomPathFilter.RandomPathFilter(java.util.Random, java.lang.String[])
+org.datavec.image.transform.ResizeImageTransform.ResizeImageTransform(java.util.Random, int, int)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, org.datavec.api.io.WritableConverter, int, int, int, int, int, boolean)
+org.datavec.api.split.FileSplit.FileSplit(java.io.File, java.lang.String[])
+org.datavec.image.transform.FlipImageTransform.FlipImageTransform(java.util.Random)
+org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler.ImagePreProcessingScaler(double, double, int)
+org.datavec.image.recordreader.ImageRecordReader.ImageRecordReader(long, long, long, org.datavec.api.io.labels.PathMultiLabelGenerator)
+org.datavec.image.transform.MultiImageTransform.MultiImageTransform(int, org.datavec.image.transform.ImageTransform)
+org.nd4j.common.io.ClassPathResource.ClassPathResource(java.lang.String)
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int, boolean)
+org.datavec.image.transform.FlipImageTransform.FlipImageTransform()
+org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator.RecordReaderDataSetIterator(org.datavec.api.records.reader.RecordReader, int, int, int)
+org.datavec.image.transform.EqualizeHistTransform.EqualizeHistTransform(int, int)
+------END OF CONSTRUCTORS------
