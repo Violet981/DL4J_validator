@@ -1,15 +1,16 @@
 import os,os.path
+import re
 
 def prepareFiles(dir):
 	number = 0
 	for root,dirname,filenames in os.walk(dir):  
-	       for filename in filenames:  
-	            # os.path.splitext() is a tuple in the form of ('188739', '.jpg'), the index [1] can get the file format
-	            if os.path.splitext(filename)[1]=='.txt':
-	                number += 1
-	                filePath = os.path.join(root, filename)
-	                #delete_logger(filePath)
-	                modify(filePath)
+			for filename in filenames:  
+				# os.path.splitext() is a tuple in the form of ('188739', '.jpg'), the index [1] can get the file format
+				if os.path.splitext(filename)[1]=='.txt':
+					umber += 1
+					filePath = os.path.join(root, filename)
+					#delete_logger(filePath)
+					modify(filePath)
 
 	print(number)
 
@@ -67,6 +68,42 @@ def delete_logger(filename):
 	if flag == True:
 		print(filename)
 
+def countAPIs(dir):
+	number = 0
+	classes = 0
+	methods = 0
+	for root,dirname,filenames in os.walk(dir):  
+			for filename in filenames:  
+				# os.path.splitext() is a tuple in the form of ('188739', '.jpg'), the index [1] can get the file format
+				if os.path.splitext(filename)[1]=='.txt':
+					number += 1
+					filePath = os.path.join(root, filename)
+					print(filePath)
+					#delete_logger(filePath)
+					gt_classes = getIndicators(filePath, "CLASSES", False)
+					gt_apis = getIndicators(filePath, "API CALLS", False).union(getIndicators(filePath, "CONSTRUCTORS", False)) 
+					classes += len(gt_classes)
+					methods += len(gt_apis)
+
+	print(classes/number)
+	print(methods/number)
+
+
+
+def getIndicators(filepath, keyword, is_sample):
+	f = open(filepath, "r")
+	text = f.read().replace('\n', "|")
+	content = re.findall(keyword+'------(.*?)------END OF ' + keyword,text)
+	indicators = content[0].replace(' ', '').split("|")
+	del indicators[0]
+	del indicators[-1]
+	f.close()
+	indicators = set([item for item in indicators if (("deeplearning4j" in item) or ("nd4j" in item) or ("datavec" in item))])
+
+	return indicators	                
+
+
 if __name__ == "__main__":
-	prepareFiles(r"validation/result/dl4j-examples")
-	prepareFiles(r"validation/gt/dl4j-examples")
+	# prepareFiles(r"validation/result/dl4j-examples")
+	# prepareFiles(r"validation/gt/dl4j-examples")
+	countAPIs(r"validation/result/dl4j-examples")
